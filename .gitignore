@@ -4,7 +4,7 @@ node_modules/
 *.egg-info/
 .ipynb_checkpoints
 *.tsbuildinfo
-jupyterlite_xeus_lua/labextension
+jupyterlite_xeus_sqlite/labextension
 
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python
@@ -114,6 +114,6 @@ dmypy.json
 _output
 *.doit.db
 
-xeus_lua.js
-xeus_lua.wasm
-xeus_lua.worker.js
+xeus_kernel.js
+xeus_kernel.wasm
+xeus_kernel.worker.js
