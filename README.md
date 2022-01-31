@@ -4,7 +4,7 @@
 
 A Sqlite kernel for JupyterLite running in the browser.
 
-![jupyterlite-xeus-sqlite](https://user-images.githubusercontent.com/591645/136570953-9bae67ad-fca6-436a-99e8-4cb6b0536d8c.gif)
+
 
 
 ## Requirements
