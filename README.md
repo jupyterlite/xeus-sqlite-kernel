@@ -1,6 +1,6 @@
 # jupyterlite-xeus-sqlite-kernel
 
-[![Github Actions Status](https://github.com/DerThorsten/xeus-sqlite-kernel/workflows/Build/badge.svg)](https://github.com/DerThorsten/xeus-sqlite-kernel/actions/workflows/build.yml)
+[![Github Actions Status](https://github.com/jupyterlite/xeus-sqlite-kernel/workflows/Build/badge.svg)](https://github.com/jupyterlite/xeus-sqlite-kernel/actions/workflows/build.yml)
 
 A Sqlite kernel for JupyterLite running in the browser.
 

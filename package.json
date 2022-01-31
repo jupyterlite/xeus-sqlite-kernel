@@ -8,9 +8,9 @@
     "jupyterlite",
     "jupyterlite-extension"
   ],
-  "homepage": "https://github.com/DerThorsten/xeus-sqlite-kernel",
+  "homepage": "https://github.com/jupyterlite/xeus-sqlite-kernel",
   "bugs": {
-    "url": "https://github.com/DerThorsten/xeus-sqlite-kernel/issues"
+    "url": "https://github.com/jupyterlite/xeus-sqlite-kernel/issues"
   },
   "license": "BSD-3-Clause",
   "author": {
@@ -26,7 +26,7 @@
   "style": "style/index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DerThorsten/xeus-sqlite-kernel.git"
+    "url": "https://github.com/jupyterlite/xeus-sqlite-kernel.git"
   },
   "scripts": {
     "build:dockerimage": "docker build -t mydockerimage  --build-arg USER_ID=$(id -u) --build-arg GROUP_ID=$(id -g) . ",
