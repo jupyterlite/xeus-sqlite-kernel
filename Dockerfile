@@ -185,7 +185,7 @@ RUN cd /opt/sqlitecpp/build && \
 ##################################################################
 
 RUN mkdir -p /opt/xeus-sqlite/
-RUN git clone  --branch filesystem --depth 3 https://github.com/DerThorsten/xeus-sqlite.git   /opt/xeus-sqlite
+RUN git clone  --branch filesystem --depth 1 https://github.com/DerThorsten/xeus-sqlite.git   /opt/xeus-sqlite
 
 
 # COPY . /opt/xeus-sqlite
