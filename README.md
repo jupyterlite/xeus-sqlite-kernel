@@ -5,8 +5,6 @@
 A Sqlite kernel for JupyterLite running in the browser.
 
 
-
-
 ## Requirements
 
 - JupyterLite >= 0.1.0a14
