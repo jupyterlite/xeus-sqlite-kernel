@@ -22,14 +22,14 @@ const server_kernel: JupyterLiteServerPlugin<void> = {
   activate: (app: JupyterLiteServer, kernelspecs: IKernelSpecs) => {
     kernelspecs.register({
       spec: {
-        name: 'Sqlite',
-        display_name: 'Sqlite',
+        name: 'SQLite',
+        display_name: 'SQLite',
         language: 'sql',
         argv: [],
         spec: {
           argv: [],
           env: {},
-          display_name: 'Sqlite',
+          display_name: 'SQLite',
           language: 'sql',
           interrupt_mode: 'message',
           metadata: {}
