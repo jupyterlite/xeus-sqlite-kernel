@@ -1,7 +1,7 @@
 {
   "name": "@jupyterlite/xeus-sqlite-kernel",
   "version": "0.1.1",
-  "description": "A sqlite kernel for JupyterLite, powered by Xeus",
+  "description": "A SQLite kernel for JupyterLite, powered by Xeus",
   "keywords": [
     "jupyter",
     "jupyterlab",
