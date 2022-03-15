@@ -64,9 +64,9 @@ RUN cd /opt/xproperty/build && \
 # ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
 RUN mkdir -p /opt/xeus &&  \
-    git clone --branch 2.3.0  --depth 1   https://github.com/jupyter-xeus/xeus.git   /opt/xeus
+    git clone --branch 2.4.0  --depth 1   https://github.com/jupyter-xeus/xeus.git   /opt/xeus
 RUN mkdir -p /xeus-build && cd /xeus-build  && ls &&\
-    emcmake cmake  /opt/xeus \
+    emcmake cmake /opt/xeus \
         -DCMAKE_INSTALL_PREFIX=/install \
         -Dnlohmann_json_DIR=/install/lib/cmake/nlohmann_json \
         -Dxtl_DIR=/install/share/cmake/xtl \
@@ -184,12 +184,10 @@ RUN cd /opt/sqlitecpp/build && \
 # xeus-sqlite
 ##################################################################
 
-RUN mkdir -p /opt/xeus-sqlite/
-RUN git clone  --branch filesystem --depth 1 https://github.com/DerThorsten/xeus-sqlite.git   /opt/xeus-sqlite
+RUN mkdir -p /opt/xeus-sqlite &&  \
+    git clone --branch 0.5.2  --depth 1   https://github.com/jupyter-xeus/xeus-sqlite.git   /opt/xeus-sqlite
 
-
-# COPY . /opt/xeus-sqlite
-
+# COPY xeus-sqlite /opt/xeus-sqlite
 
 RUN mkdir -p /xeus-sqlite-build && cd /xeus-sqlite-build  && ls && \
     emcmake cmake  /opt/xeus-sqlite \
