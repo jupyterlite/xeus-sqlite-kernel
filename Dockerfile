@@ -64,7 +64,7 @@ RUN cd /opt/xproperty/build && \
 # ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
 RUN mkdir -p /opt/xeus &&  \
-    git clone --branch 2.4.0  --depth 1   https://github.com/jupyter-xeus/xeus.git   /opt/xeus
+    git clone --branch 2.4.1  --depth 1   https://github.com/jupyter-xeus/xeus.git   /opt/xeus
 RUN mkdir -p /xeus-build && cd /xeus-build  && ls &&\
     emcmake cmake /opt/xeus \
         -DCMAKE_INSTALL_PREFIX=/install \
