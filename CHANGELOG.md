@@ -2,6 +2,22 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.2.1
+
+([Full Changelog](https://github.com/jupyterlite/xeus-sqlite-kernel/compare/v0.2.0...b68956a2a702a8d737e80b8d0f10d0af15abb50e))
+
+### Merged PRs
+
+- Update xeus [#11](https://github.com/jupyterlite/xeus-sqlite-kernel/pull/11) ([@martinRenou](https://github.com/martinRenou))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/jupyterlite/xeus-sqlite-kernel/graphs/contributors?from=2022-03-17&to=2022-05-19&type=c))
+
+[@martinRenou](https://github.com/search?q=repo%3Ajupyterlite%2Fxeus-sqlite-kernel+involves%3AmartinRenou+updated%3A2022-03-17..2022-05-19&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.2.0
 
 ([Full Changelog](https://github.com/jupyterlite/xeus-sqlite-kernel/compare/v0.1.2...e71db9a190aabefb56c73b76744373f3ef4777fb))
@@ -15,8 +31,6 @@
 ([GitHub contributors page for this release](https://github.com/jupyterlite/xeus-sqlite-kernel/graphs/contributors?from=2022-02-01&to=2022-03-17&type=c))
 
 [@SylvainCorlay](https://github.com/search?q=repo%3Ajupyterlite%2Fxeus-sqlite-kernel+involves%3ASylvainCorlay+updated%3A2022-02-01..2022-03-17&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.1.2
 
