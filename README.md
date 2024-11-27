@@ -32,6 +32,10 @@ To remove the extension, execute:
 pip uninstall jupyterlite_xeus_sqlite
 ```
 
+## Usage
+See the xeus-sqlite documentation: https://xeus-sqlite.readthedocs.io/en/latest/
+
+
 ## Contributing
 
 ### Development install
